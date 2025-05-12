@@ -9,6 +9,7 @@ import org.springframework.cache.annotation.EnableCaching;
 public class CacheExampleApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Testing.....");
 		SpringApplication.run(CacheExampleApplication.class, args);
 	}
 
