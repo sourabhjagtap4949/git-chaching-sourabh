@@ -17,6 +17,11 @@ public class CacheExampleApplication {
 	public static void main(String[] args) {
 		System.out.println("Testing.....");
 		log.info("welcome to main project...");
+		log.info("welcome to main project1...");
+		log.info("welcome to main project2...");
+		log.info("welcome to main project3...");
+		log.info("welcome to main project4...");
+		
 		SpringApplication.run(CacheExampleApplication.class, args);
 	}
 
