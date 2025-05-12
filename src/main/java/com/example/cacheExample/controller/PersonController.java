@@ -35,6 +35,20 @@ public class PersonController {
     }
 
 
+    @GetMapping("/fetchPersonNew1/{name}")
+    public Person getPersonsAll(@PathVariable String name){
 
+        Person personR = new Person();
+        personR.setPersonName("sourabh");
+
+
+        Person person = personService.fetchPersons(personR);
+        return person;
+    }
+
+    @GetMapping("/fetchPersonNew2/{name}")
+    public Person getPersonsAll2(@PathVariable String name){
+        return null;
+    }
 
 }
