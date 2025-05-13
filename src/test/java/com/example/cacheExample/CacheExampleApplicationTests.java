@@ -12,7 +12,7 @@ class CacheExampleApplicationTests {
 	@Test
 	void contextLoads() {
 		System.out.println("Handling exception...  ");
-		Sgffystem.out.println("Handling exception2222222...  ");
+		System.out.println("Handling exception2222222...  ");
 	}
 
 
